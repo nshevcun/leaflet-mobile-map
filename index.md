@@ -60,6 +60,7 @@ crossorigin=""/>
         maxZoom: 18,
         tileSize: 512,
         zoomOffset: -1,
+        accessToken: 'e6af7839f94a43428e202e1290e0a2be'
     }).addTo(map);
 
     // Geolocation - Leaflet will automatically zoom the map to the detected location.
