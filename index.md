@@ -1,25 +1,19 @@
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
 
-    <title> Mobile Browser Map </title>
+<!-- The following script will the mobile browser to disable unwanted scaling of the page and set it to its actual size -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <!-- The following script will the mobile browser to disable unwanted scaling of the page and set it to its actual size -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-    <!-- Step 1. Paste Leaflet CSS here -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-
+<!-- Step 1. Paste Leaflet CSS here -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
 integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
 crossorigin=""/>
 
-    <!-- Step 2. Paste Leaflet JS here -->
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+<!-- Step 2. Paste Leaflet JS here -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 
-integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-crossorigin=""></script>
-
-    <style>
+<style>
     /* These styles will help prepare the map for mobile view */
     body {
         padding: 0;
@@ -42,9 +36,9 @@ crossorigin=""></script>
         margin-left: auto;
         margin-right: auto;
     }
-
   </style>
 
+<title> Mobile Browser Map </title>
 </head>
 
 <body>
